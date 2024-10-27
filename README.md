@@ -10,6 +10,12 @@ Normal_images : G1020/Images_Square에 있는 영상중에 정상판정 영상
 
 Normal_images_cropped : G1020/Images_Square에 있는 영상중에 녹내장 판정 영상
 
+위 이미지 파일폴더는 크기 문제로 업로드 하지 못했음
+
+G1020 이미지를 아래 수행코드와 같은 폴더에 넣어놓으면 코드에서 Deep_Square와 Deep_Cropped에서 
+각각 (Glaucoma_images, Normal_images)와 (Glaucoma_images_cropped, Normal_images_cropped) 폴더를 만들고 
+필요한 영상을 복사합니다. 
+
 simple_conv_3_128_128.ipynb : 128x128 칼라영상(r,g,b)으로 축소한 simple convoultion 수행
 
 simple_conv_1_128_128.ipynb : 128x128 흑백영상(grayscale)로 축소한 simple convolution 수행
